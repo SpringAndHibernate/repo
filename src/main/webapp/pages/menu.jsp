@@ -12,8 +12,7 @@
 </c:if>
 
 <c:if  test="${myCheck}">
-    <p><a href="/user/reg">Registration</a></p>
-    <p><a href="/user/auth">Authorization</a></p>
+    <p><a href="/logout">Logout</a></p>
     <p><a href="/calc">Calculation</a></p>
     ${message}
 </c:if>
