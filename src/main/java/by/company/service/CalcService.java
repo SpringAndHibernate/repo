@@ -1,8 +1,11 @@
-package by.company;
+package by.company.service;
 
-public class Calculator {
+import org.springframework.stereotype.Service;
 
-    public static double calculate(double a,double b, String operation) {
+@Service
+public class CalcService {
+
+    public double calculate(double a,double b, String operation) {
         double result = 0;
 
         switch (operation){
